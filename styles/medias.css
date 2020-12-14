@@ -1,0 +1,126 @@
+@media screen and (max-width: 1440px) {
+    .container-1 {
+        grid-template-columns: 36% 50%;
+    }       
+}
+@media screen and (max-width: 1024px) {
+    .container-1 {
+        grid-template-columns: 36% 50%;
+    }
+    .container-3 img {
+        width: 200px;
+        height: 200px;
+    }
+    .container-3 h3 {
+        font-size: 16px;
+    }
+    .container-5 {
+        grid-template-columns: repeat(5, 12%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-1 {
+        grid-template-columns: 25% 50%;
+    }
+    .logo {
+        width: 100%;
+    }
+    .container-3 {
+        grid-template-columns: repeat(3, 30%);
+    }
+    .container-5 {
+        grid-template-columns: repeat(5, 15%);
+    }
+    .container-6 {
+        grid-template-columns: 20% 30%;
+    }
+    .container-7 {
+        grid-template-columns: 20% 30%;
+    }
+    .item-9 {
+        width: 55%;
+    }
+    input {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    body {
+        width: auto;
+    }
+    .logo {
+        width: 140%;
+    }
+    .contact a {
+        padding: 0 20px;
+        margin-bottom: 10px;
+    }
+    .container-2 {
+        padding: 10px;
+    }
+    .item-3 figure img {
+        display: none;
+    }
+    .container-3 {
+        grid-template-columns: 90%;
+        grid-template-rows: repeat(3, 34%);
+    }
+    .title {
+        text-align: center;
+    }
+    .hamIcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .item-1:nth-of-type(1) {
+        display: none;
+    }
+    .item-1 nav ul {
+        display: none;
+    }
+    .mainMenu.toggleCls{
+        display: block;
+        padding: 0;
+        background-color: black;
+        width: 100%;
+        line-height: 45px;
+        border-radius: 10px;
+    }
+    .container-5 {
+        grid-template-columns: repeat(2, 45%);
+        grid-template-rows: repeat(5, 17%);
+    }
+    .container-6 {
+        margin-top: 0;
+        grid-template-columns: 80%;
+        grid-template-rows: 35% 65%;
+    }
+    .item-6:nth-of-type(2) {
+        display: flex;
+        justify-content: center;
+    }
+    .container-7 {
+        grid-template-columns: 80%;
+        grid-template-rows: 35% 65%;
+    }
+    .item-9 {
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .mainMenu.toggleCls {
+        line-height: 38px;
+    }
+    .container-8 h1{
+        font-size: 24px;
+    }
+    .item-9 {
+        width: 90%;
+    }    
+}
